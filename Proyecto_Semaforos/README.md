@@ -1,0 +1,13 @@
+# Proyecto Semaforo Verilog
+
+Daniela Ulloa Barboza - B77748.
+Luis Diego Nuñez Mora - B75473.
+
+## Descripción:
+Este documento se encarga de explicar el código necesario para poder ejecutar el presente proyecto que consiste en la emulación de una red de semáforos en una RVFPGA marca Digilent Nexys A7. Es un programa cíclico que funciona a partir de una máquina de estados y una interrupción; el objetivo del proyecto es demostrar en tiempo real y de una forma gráfica cómo ocurre una Interrupción, y la implementación de una Máquina de estados en el lenguaje de programación C (tema del curso a implementar). El c´odigo funciona de la siguiente manera, un LED tricolor cambia constantemente su color (rojo- verde- amarillo) simulando que es parte de una red de semáforos en una intersección mientras ocurre un conteo inverso en los display de 7 segmentos por cada color, pero además se agrega un semáforo de emergencia (Interrupción) que detenga el funcionamiento cíclico y que mientras el de emergencia esté encendido el otro se mantengan en rojo y detenido; el semáforo de emergencia representaría en realidad, una vía de un tren y las señales correspondientes para activar y desactivar las agujas, por lo que si la luz está en rojo las agujas del tren estarán bloqueadas y si la luz está en verde es que bajan las agujas del tren. La interrupción se generará cada vez que se accione el botón central de los Push-Buttons que trae la Nexys, el accionamiento del botón representa el acercamiento del tren a la intersección, esto se concreta utilizando los registros de interrupción de la PTC (PWM/Temporizador/Contador por sus siglas en ingl´es) de la tarjeta RVFPGA Digilent Nexys A7 y la programación ya brindada para llevar a cabo las interrupciones, también se hará uso de la programación necesaria para acceder a los LEDs tricolor. Otro objetivo del proyecto es exponer a los compañeros el proceso de cómo hacer las conexiones del hardware, programando con Verilog, para que así se pueda también comprender un poco la arquitectura interna de la FPGANexys,una tarjeta altamente usada en el ambiente laboral. Para poder acceder al Overleaf, por favor acceder al siguiente link: https://www.overleaf.com/read/vkdssxhsxmpc#83a7b2.
+
+## Dirección del reporte:
+Proyecto_Semaforo_verilog\Documentos\Proyecto_Semaforos.pdf
+
+## Dirección del archivo del programa del proyecto:
+Proyecto_Semaforo_verilog\RVfpga\Proyecto_Semaforos\src\Proyecto_Semaforos.c
