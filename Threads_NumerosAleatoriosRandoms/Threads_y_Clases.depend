@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1732836072 source:c:\universidad\estructurasabstractasdatosalgoritmos\actividades.daniela.ulloabarboza\tarea04\threads_y_clases\execthreads.cpp
+	<iostream>
+	<vector>
+	<pthread.h>
+	<limits>
+	<cmath>
+	"execThreads.h"
+
+1732836057 c:\universidad\estructurasabstractasdatosalgoritmos\actividades.daniela.ulloabarboza\tarea04\threads_y_clases\execthreads.h
+
+1732837060 source:c:\universidad\estructurasabstractasdatosalgoritmos\actividades.daniela.ulloabarboza\tarea04\threads_y_clases\sieveeratosthenesthread.cpp
+	<iostream>
+	"SieveEratosthenes.h"
+	"execThreads.h"
+	"SieveEratosthenesThread.h"
+
+1732837492 c:\universidad\estructurasabstractasdatosalgoritmos\actividades.daniela.ulloabarboza\tarea04\threads_y_clases\sieveeratosthenes.h
+	<iostream>
+	<set>
+	<mutex>
+
+1732838365 c:\universidad\estructurasabstractasdatosalgoritmos\actividades.daniela.ulloabarboza\tarea04\threads_y_clases\sieveeratosthenesthread.h
+	"SieveEratosthenes.h"
+	"execThreads.h"
+
+1732838296 source:c:\universidad\estructurasabstractasdatosalgoritmos\actividades.daniela.ulloabarboza\tarea04\threads_y_clases\sieveeratosthenes.cpp
+	<iostream>
+	<limits>
+	"SieveEratosthenes.h"
+
+1732839393 source:c:\universidad\estructurasabstractasdatosalgoritmos\actividades.daniela.ulloabarboza\tarea04\threads_y_clases\mainthreads_y_clases.cpp
+	<unistd.h>
+	<iostream>
+	<vector>
+	<pthread.h>
+	<limits>
+	<cmath>
+	<random>
+	"SieveEratosthenesThread.h"
+
